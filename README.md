@@ -9,6 +9,10 @@ Learn about Markdown in R. Use Markdown to create professional quality papers.
 
 
 # Background
+R Markdown files are designed to be used with the rmarkdown package. rmarkdown comes installed with the RStudio IDE, but you can acquire your own copy of rmarkdown from CRAN with the command
+
+install.packages("rmarkdown")
+
 - Overview
   - Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents
   - Markdown documents provide quick, reproducible reporting from R
@@ -18,9 +22,6 @@ Learn about Markdown in R. Use Markdown to create professional quality papers.
   - Update the document at any time by re-knitting the code chunks
   - Convert the document into several common formats
 
-R Markdown files are designed to be used with the rmarkdown package. rmarkdown comes installed with the RStudio IDE, but you can acquire your own copy of rmarkdown from CRAN with the command
-
-install.packages("rmarkdown")
 
 # Procedure
 
