@@ -21,7 +21,7 @@ install.packages("rmarkdown")
   - Write the document in markdown and embed executable R code chunks with the knitr syntax
   - Update the document at any time by re-knitting the code chunks
   - Convert the document into several common formats
-  - 
+
 
 # Definitions
 You can transform an R Markdown file in two ways.
