@@ -85,15 +85,15 @@ Markdown is an **easy to use** format for writing reports. It resembles what you
 
 The file demonstrates how to use markdown to indicate:
 
-  **1. ** headers - Place one or more hashtags at the start of a line that will be a header (or sub-header). For example, # Say Hello to markdown. A single hashtag creates a first level header. Two hashtags, ##, creates a second level header, and so on.
+  **1.** headers - Place one or more hashtags at the start of a line that will be a header (or sub-header). For example, # Say Hello to markdown. A single hashtag creates a first level header. Two hashtags, ##, creates a second level header, and so on.
 
-  **2. ** italicized and bold text - Surround italicized text with asterisks, like this *without realizing it*. Surround bold text with two asterisks, like this **easy to use**.
+  **2.** italicized and bold text - Surround italicized text with asterisks, like this *without realizing it*. Surround bold text with two asterisks, like this **easy to use**.
 
-  **3. ** lists - Group lines into bullet points that begin with asterisks. Leave a blank line before the first bullet, like this
+  **3.** lists - Group lines into bullet points that begin with asterisks. Leave a blank line before the first bullet, like this
   
 NEED PICTURE
 
-  **4. ** hyperlinks - Surround links with brackets, and then provide the link target in parentheses, like this [Github](www.github.com).
+  **4.** hyperlinks - Surround links with brackets, and then provide the link target in parentheses, like this [Github](www.github.com).
 
 You can learn about more of markdown’s conventions in the Markdown Quick Reference guide, which comes with the RStudio IDE.
 
