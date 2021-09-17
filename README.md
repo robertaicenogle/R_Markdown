@@ -43,7 +43,7 @@ In practice, authors almost always knit and convert their documents at the same 
 
 # Procedure
 
-## Getting Started
+### Getting Started
 To create an R Markdown report, open a plain text file and save it with the extension .Rmd. You can open a plain text file in your scripts editor by clicking File > New File > Text File in the RStudio toolbar.
 
 NEED PICTURE
