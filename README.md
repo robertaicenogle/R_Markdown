@@ -13,11 +13,11 @@ R Markdown files are designed to be used with the rmarkdown package. rmarkdown c
 
 install.packages("rmarkdown")
 
-- Overview
+### Overview
   - Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents
   - Markdown documents provide quick, reproducible reporting from R
 
-- Basic Process
+### Basic Process
   - Write the document in markdown and embed executable R code chunks with the knitr syntax
   - Update the document at any time by re-knitting the code chunks
   - Convert the document into several common formats
