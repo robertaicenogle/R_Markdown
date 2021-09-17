@@ -1,8 +1,8 @@
 # R_Markdown
-Learning about Markdown in R. Using Markdown to create professional quality papers.
+Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents.
 
 # Purpose
-
+Learning about Markdown in R. Using Markdown to create professional quality papers.
 
 # Definitions
 
@@ -12,4 +12,5 @@ Learning about Markdown in R. Using Markdown to create professional quality pape
 
 
 # References
+https://rmarkdown.rstudio.com/articles_intro.html
 https://cran.r-project.org/web/packages/rmarkdown/vignettes/rmarkdown.html
