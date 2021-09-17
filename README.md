@@ -24,7 +24,7 @@ install.packages("rmarkdown")
 
 
 # Definitions
-You can transform an R Markdown file in two ways.
+You can transform an R Markdown file in two ways:
 
 1. **knit** - You can knit the file. The rmarkdown package will call the knitr package. knitr will run each chunk of R code in the document and append the results of the code to the document next to the code chunk. This workflow saves time and facilitates reproducible reports.
 
@@ -41,6 +41,7 @@ You can transform an R Markdown file in two ways.
 
     - In the R Markdown paradigm, each report contains the code it needs to make its own graphs, tables, numbers, etc. The author can automatically update the report by re-knitting.
 
+In practice, authors almost always knit and convert their documents at the same time. In this article, I will use the term render to refer to the two step process of knitting and converting an R Markdown file.
 
 
 # Procedure
