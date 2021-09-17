@@ -7,9 +7,7 @@ R Markdown files are the source code for rich, reproducible documents.
 
 
 # Background
-R Markdown files are designed to be used with the rmarkdown package. rmarkdown comes installed with the RStudio IDE, but you can acquire your own copy of rmarkdown from CRAN with the command
-
-install.packages("rmarkdown")
+R Markdown files are designed to be used with the rmarkdown package. rmarkdown comes installed with the RStudio IDE, but you can acquire your own copy of rmarkdown from CRAN with the command { install.packages("rmarkdown") }
 
 
 ### Overview
