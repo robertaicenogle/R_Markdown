@@ -47,7 +47,11 @@ In practice, authors almost always knit and convert their documents at the same 
 ## Getting Started
 To create an R Markdown report, open a plain text file and save it with the extension .Rmd. You can open a plain text file in your scripts editor by clicking File > New File > Text File in the RStudio toolbar.
 
+NEED PICTURE
+
 Be sure to save the file with the extension .Rmd. The RStudio IDE enables several helpful buttons when you save the file with the .Rmd extension. You can save your file by clicking File > Save in the RStudio toolbar.
+
+NEED PICTURE
 
 R Markdown reports rely on three frameworks
 
@@ -70,6 +74,8 @@ The sections below describe each framework.
 The conventions of markdown are very unobtrusive, which make Markdown files easy to read. The file below uses several of the most useful markdown conventions.
 
 -------------------------------------------
+NEED PICTURE
+
 # Say Hello to markdown
 
 Markdown is an **easy to use** format for writing reports. It resembles what you naturally write every time you compose an email. In fact, you may have already used markdown *without realizing it*. These websites all rely on markdown formatting
