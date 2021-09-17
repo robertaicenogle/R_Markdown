@@ -1,7 +1,6 @@
 # R_Markdown
 Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents.
 
-
 # Purpose
 R Markdown files are the source code for rich, reproducible documents.
 
@@ -73,7 +72,7 @@ The sections below describe each framework.
 
 The conventions of markdown are very unobtrusive, which make Markdown files easy to read. The file below uses several of the most useful markdown conventions.
 
--------------------------------------------
+
 NEED PICTURE
 
 # Say Hello to markdown
@@ -84,7 +83,116 @@ Markdown is an **easy to use** format for writing reports. It resembles what you
 * [StackOverflow](www.stackoverflow.com)
 * [Reddit](www.reddit.com)
 
--------------------------------------------
+The file demonstrates how to use markdown to indicate:
+
+  **1. ** headers - Place one or more hashtags at the start of a line that will be a header (or sub-header). For example, # Say Hello to markdown. A single hashtag creates a first level header. Two hashtags, ##, creates a second level header, and so on.
+
+  **2. ** italicized and bold text - Surround italicized text with asterisks, like this *without realizing it*. Surround bold text with two asterisks, like this **easy to use**.
+
+  **3. ** lists - Group lines into bullet points that begin with asterisks. Leave a blank line before the first bullet, like this
+  
+NEED PICTURE
+
+  **4. ** hyperlinks - Surround links with brackets, and then provide the link target in parentheses, like this [Github](www.github.com).
+
+You can learn about more of markdown’s conventions in the Markdown Quick Reference guide, which comes with the RStudio IDE.
+
+To access the guide, open a .md or .Rmd file in RStudio. Then click the question mark that appears at the top of the scripts pane. Next, select “Markdown Quick Reference”. RStudio will open the Markdown Quick Reference guide in the Help pane.
+
+NEED PICTURE
+
+
+## Rendering
+To transform your markdown file into an HTML, PDF, or Word document, click the “Knit” icon that appears above your file in the scripts editor. A drop down menu will let you select the type of output that you want.
+
+NEED PICTURE
+
+When you click the button, rmarkdown will duplicate your text in the new file format. rmarkdown will use the formatting instructions that you provided with markdown syntax.
+
+Once the file is rendered, RStudio will show you a preview of the new output and save the output file in your working directory.
+
+Here is how the markdown script above would look in each output format.
+
+HTML
+NEED PICTURE
+
+PDF
+NEED PICTURE
+
+MS WORD
+NEED PICTURE
+
+
+## knitr for Embedded R Code
+The knitr package extends the basic markdown syntax to include chunks of executable R code.
+
+When you render the report, knitr will run the code and add the results to the output file. You can have the output display just the code, just the results, or both.
+
+To embed a chunk of R code into your report, surround the code with two lines that each contain three backticks. After the first set of backticks, include {r}, which alerts knitr that you have included a chunk of R code. The result will look like this
+
+NEED PICTURE
+
+When you render your document, knitr will run the code and append the results to the code chunk. knitr will provide formatting and syntax highlighting to both the code and its results (where appropriate).
+
+NEED PICTURE
+
+As a result, the markdown snippet above will look like this when rendered (to HTML).
+
+NEED PICTURE
+
+To omit the results from your final report (and not run the code) add the argument eval = FALSE inside the brackets and after r. This will place a copy of your code into the report.
+
+NEED PICTURE
+
+To omit the code from the final report (while including the results) add the argument echo = FALSE. This will place a copy of the results into your report.
+
+NEED PICTURE
+
+echo = FALSE is very handy for adding plots to a report, since you usually do not want to see the code that generates the plot.
+
+NEED PICTURE
+
+echo and eval are not the only arguments that you can use to customize code chunks. You can learn more about formatting the output of code chunks at the rmarkdown and knitr websites.
+
+
+## Inline Code
+To embed R code in a line of text, surround the code with a pair of backticks and the letter r, like this.
+
+Two plus two equals 4.
+
+knitr will replace the inline code with its result in your final document (inline code is always replaced by its result). The result will appear as if it were part of the original text. For example, the snippet above will appear like this:
+
+NEED PICTURE
+
+
+## YAML for render parameters
+You can use a YAML header to control how rmarkdown renders your .Rmd file. A YAML header is a section of key: value pairs surrounded by --- marks, like below
+
+NEED PICTURE
+
+The output: value determines what type of output to convert the file into when you call rmarkdown::render(). Note: you do not need to specify output: if you render your file with the RStudio IDE knit button.
+
+output: recognizes the following values:
+
+  - html_document, which will create HTML output (default)
+  - pdf_document, which will create PDF output
+  - word_document, which will create Word output
+
+If you use the RStudio IDE knit button to render your file, the selection you make in the gui will override the output: setting.
+
+
+## Slideshows
+You can also use the output: value to render your document as a slideshow.
+
+  - output: ioslides_presentation will create an ioslides (HTML5) slideshow
+  - output: beamer_presentation will create a beamer (PDF) slideshow
+
+Note: The knit button in the RStudio IDE will update to show slideshow options when you include one of the above output values and save your .Rmd file.
+
+rmarkdown will convert your document into a slideshow by starting a new slide at each header or horizontal rule (e.g., ***).
+
+Visit **rmakdown.rstudio.com** to learn about more YAML options that control the render process.
+
 
 # References
 - https://rmarkdown.rstudio.com/articles_intro.html
