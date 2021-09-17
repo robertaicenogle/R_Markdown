@@ -50,7 +50,7 @@ To create an R Markdown report, open a plain text file and save it with the exte
 
 Be sure to save the file with the extension .Rmd. The RStudio IDE enables several helpful buttons when you save the file with the .Rmd extension. You can save your file by clicking File > Save in the RStudio toolbar.
 
-![](Pictures_Readme/pic_2.PNG)
+![](Pictures_Readme/pic_6.PNG)
 
 R Markdown reports rely on three frameworks
 
