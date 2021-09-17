@@ -46,11 +46,11 @@ In practice, authors almost always knit and convert their documents at the same 
 ### Getting Started
 To create an R Markdown report, open a plain text file and save it with the extension .Rmd. You can open a plain text file in your scripts editor by clicking File > New File > Text File in the RStudio toolbar.
 
-![](pic_1.PNG)
+![](Pictures_Readme/pic_1.PNG)
 
 Be sure to save the file with the extension .Rmd. The RStudio IDE enables several helpful buttons when you save the file with the .Rmd extension. You can save your file by clicking File > Save in the RStudio toolbar.
 
-![](pic_2.PNG)
+![](Pictures_Readme/pic_2.PNG)
 
 R Markdown reports rely on three frameworks
 
@@ -72,7 +72,7 @@ The sections below describe each framework.
 
 The conventions of markdown are very unobtrusive, which make Markdown files easy to read. The file below uses several of the most useful markdown conventions.
 
-![](pic_1.PNG)
+![](Pictures_Readme/pic_3.PNG)
 
 # Say Hello to markdown
 
@@ -91,7 +91,7 @@ The file demonstrates how to use markdown to indicate:
   **3.** lists - Group lines into bullet points that begin with asterisks. Leave a blank line before the first bullet, like this
   
 NEED PICTURE
-![](pic_1.PNG)
+![](Pictures_Readme/pic_3.PNG)
 
   **4.** hyperlinks - Surround links with brackets, and then provide the link target in parentheses, like this [Github](www.github.com).
 
@@ -100,14 +100,14 @@ You can learn about more of markdown’s conventions in the Markdown Quick Refer
 To access the guide, open a .md or .Rmd file in RStudio. Then click the question mark that appears at the top of the scripts pane. Next, select “Markdown Quick Reference”. RStudio will open the Markdown Quick Reference guide in the Help pane.
 
 NEED PICTURE
-![](pic_1.PNG)
+![](Pictures_Readme/pic_3.PNG)
 
 
 ## Rendering
 To transform your markdown file into an HTML, PDF, or Word document, click the “Knit” icon that appears above your file in the scripts editor. A drop down menu will let you select the type of output that you want.
 
 NEED PICTURE
-![](pic_1.PNG)
+![](Pictures_Readme/pic_3.PNG)
 
 
 When you click the button, rmarkdown will duplicate your text in the new file format. rmarkdown will use the formatting instructions that you provided with markdown syntax.
@@ -118,16 +118,16 @@ Here is how the markdown script above would look in each output format.
 
 HTML
 NEED PICTURE
-![](pic_1.PNG)
+![](Pictures_Readme/pic_3.PNG)
 
 
 PDF
 NEED PICTURE
-![](pic_1.PNG)
+![](Pictures_Readme/pic_3.PNG)
 
 MS WORD
 NEED PICTURE
-![](pic_1.PNG)
+![](Pictures_Readme/pic_3.PNG)
 
 
 ## knitr for Embedded R Code
@@ -138,32 +138,32 @@ When you render the report, knitr will run the code and add the results to the o
 To embed a chunk of R code into your report, surround the code with two lines that each contain three backticks. After the first set of backticks, include {r}, which alerts knitr that you have included a chunk of R code. The result will look like this
 
 NEED PICTURE
-![](pic_1.PNG)
+![](Pictures_Readme/pic_3.PNG)
 
 When you render your document, knitr will run the code and append the results to the code chunk. knitr will provide formatting and syntax highlighting to both the code and its results (where appropriate).
 
 NEED PICTURE
-![](pic_1.PNG)
+![](Pictures_Readme/pic_3.PNG)
 
 As a result, the markdown snippet above will look like this when rendered (to HTML).
 
 NEED PICTURE
-![](pic_1.PNG)
+![](Pictures_Readme/pic_3.PNG)
 
 To omit the results from your final report (and not run the code) add the argument eval = FALSE inside the brackets and after r. This will place a copy of your code into the report.
 
 NEED PICTURE
-![](pic_1.PNG)
+![](Pictures_Readme/pic_3.PNG)
 
 To omit the code from the final report (while including the results) add the argument echo = FALSE. This will place a copy of the results into your report.
 
 NEED PICTURE
-![](pic_1.PNG)
+![](Pictures_Readme/pic_3.PNG)
 
 echo = FALSE is very handy for adding plots to a report, since you usually do not want to see the code that generates the plot.
 
 NEED PICTURE
-![](pic_1.PNG)
+![](Pictures_Readme/pic_3.PNG)
 
 echo and eval are not the only arguments that you can use to customize code chunks. You can learn more about formatting the output of code chunks at the rmarkdown and knitr websites.
 
@@ -176,14 +176,14 @@ Two plus two equals 4.
 knitr will replace the inline code with its result in your final document (inline code is always replaced by its result). The result will appear as if it were part of the original text. For example, the snippet above will appear like this:
 
 NEED PICTURE
-![](pic_1.PNG)
+![](Pictures_Readme/pic_3.PNG)
 
 
 ## YAML for render parameters
 You can use a YAML header to control how rmarkdown renders your .Rmd file. A YAML header is a section of key: value pairs surrounded by --- marks, like below
 
 NEED PICTURE
-![](pic_1.PNG)
+![](Pictures_Readme/pic_3.PNG)
 
 The output: value determines what type of output to convert the file into when you call rmarkdown::render(). Note: you do not need to specify output: if you render your file with the RStudio IDE knit button.
 
