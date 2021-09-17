@@ -91,7 +91,7 @@ The file demonstrates how to use markdown to indicate:
   **3.** lists - Group lines into bullet points that begin with asterisks. Leave a blank line before the first bullet, like this
   
 NEED PICTURE
-![](Pictures_Readme/pic_3.PNG)
+![](Pictures_Readme/pic_4.PNG)
 
   **4.** hyperlinks - Surround links with brackets, and then provide the link target in parentheses, like this [Github](www.github.com).
 
