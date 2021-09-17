@@ -8,12 +8,15 @@ Learn about Markdown in R. Use Markdown to create professional quality papers.
 
 
 
-# Overview
-R Markdown documents provide quick, reproducible reporting from R. You write your document in markdown and embed executable R code chunks with the knitr syntax.
+# Background
+- Overview
+- - Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents
+- - Markdown documents provide quick, reproducible reporting from R
 
-You can update your document at any time by re-knitting the code chunks.
-
-You can then convert your document into several common formats.
+- Basic Process
+- Write the document in markdown and embed executable R code chunks with the knitr syntax
+- Update the document at any time by re-knitting the code chunks
+- Convert the document into several common formats
 
 
 # Procedure
