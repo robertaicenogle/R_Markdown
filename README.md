@@ -9,12 +9,7 @@ R Markdown files are the source code for rich, reproducible documents.
 R Markdown files are designed to be used with the rmarkdown package. rmarkdown comes installed with the RStudio IDE, but you can acquire your own copy of rmarkdown from CRAN with the command { install.packages("rmarkdown") }
 
 
-### Overview
-  - Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents
-  - Markdown documents provide quick, reproducible reporting from R
-
-
-### Basic Process
+### Basic Markdown Code Process
   - Write the document in markdown and embed executable R code chunks with the knitr syntax
   - Update the document at any time by re-knitting the code chunks
   - Convert the document into several common formats
