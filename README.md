@@ -5,6 +5,8 @@ RMarkdown makes use of Markdown syntax. Markdown is a very simple ‘markup’ l
 
 When you create an RMarkdown file (.Rmd), you use conventional Markdown syntax alongside chunks of code written in R (or other programming languages!). When you knit the RMarkdown file, the Markdown formatting and the R code are evaluated, and an output file (HTML, PDF, etc) is produced.
 
+https://bookdown.org/yihui/rmarkdown/
+
 ### General Markdown Code Process
   - Write the document in markdown and embed executable R code chunks with the knitr syntax
   - Update the document at any time by re-knitting the code chunks
